@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #2b2b2e;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5%;
+  background-color: #313755;
+}
+
+header h1 {
+  margin-left: 300px;
+  font-size: 60px;
+  text-decoration: underline;
+  text-align: center;  
+}
+
+ul.navlinks li {
+  background-color: #313755;
+  margin-left: -5px;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+ul.navlinks li a {
+  color: antiquewhite;
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: 500;
+  margin: 0px;
+  background-color: #313755;
+  transition: all 0.3s ease 0s;
+}
+
+ul.navlinks li a:hover {
+  color: crimson;
+}
+
+.logo {
+  height: 125px;
+  cursor: pointer;
+  background-color: #313755;
+  margin-bottom: -5px;
+}
+
+h1 {
+  background-color: #313755;
+  color: antiquewhite;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: antiquewhite;
+  font-size: 50px;
+}
+
+.sec1 {
+  text-align: center;
+  color: antiquewhite;
+  border-style: ridge;
+  font-size: 30px;
+  padding: 50px;
+  margin-top: 30px;
+}
+
+.sec1 ul li {
+  list-style: none;
+}
+
+.sec2 {
+  text-align: center;
+  color: antiquewhite;
+  border-style: ridge;
+  font-size: 30px;
+  padding: 50px;
+  margin-top: 30px;
+}
+
+.sec3 {
+  text-align: center;
+  color: antiquewhite;
+  border-style: ridge;
+  font-size: 50px;
+  padding: 0;
+  margin-top: 0;
+}
+
+.Foto {
+  width: 40%;
+  padding-top: 30px;
+  align-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+input {
+  width: 15%;
+  height: 40px;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}
+
+textarea {
+  resize: none;
+  margin-top: 20px;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+
+}
+
+button {
+  width: 200px;
+  height: 60px;
+  align-items: center;
+}
+
+.label3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+@media (max-width: 800px) {
+  header, header h1 {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 800px) {
+  header h1 {
+    font-size: 40px;
+    display: flex;
+    text-align: center;
+    margin-left: 1px;    
+  }
+}
